@@ -7,6 +7,7 @@ ul{
 #head-title{
     color: #f8f8f8;
     font-size: 44px;
+	max-width: 1095px;
 }
 
 #navbar-brand {
@@ -15,6 +16,9 @@ ul{
 	font-weight: bold;
 }
 
+#main-border {
+	margin: 100px 15px;
+}
 
 /* Classes */
 
@@ -40,13 +44,27 @@ ul{
 }
 
 .banner-text {
-    margin-top: 275px;
-    margin-left: 120px;
-    margin-bottom: 70px;
+    margin: 275px 0 70px 120px;
 }
 
 .text-wht{
    color: #fff;
+}
+
+.main-title {
+    color: #45454e;
+    font-size: 32px;
+    line-height: 35px;
+	max-width: 560px;
+	padding-bottom: 25px;
+}
+
+.main-text-light {
+	font-weight: normal;
+}
+
+.callouts {
+	padding: 0 25px 125px 25px;
 }
 
 /* Media Queries */
