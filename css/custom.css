@@ -1,0 +1,39 @@
+ul{
+   list-style-type: none;
+}
+
+/* IDs */
+
+#head-title{
+    color: #f8f8f8;
+    font-size: 44px;
+}
+
+#navbar-brand {
+	font-size: 28px;
+	margin-left: -5px;
+	font-weight: bold;
+}
+
+
+/* Classes */
+
+.navbar {
+	max-width: 1200px;
+    margin: 0 auto;
+	font-weight: bold;
+}
+
+.navbar-brand {
+	font-weight: bold;
+	font-size: 25px !important;
+}
+
+.nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.btn {
+	margin-left: 15px;
+}
