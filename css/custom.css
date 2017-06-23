@@ -34,6 +34,27 @@ ul{
     padding-left: 1rem !important;
 }
 
-.btn {
-	margin-left: 15px;
+.jumbotron{
+    background-image: url(../resources/hero-image.jpg);
+    background-size: cover;
+}
+
+.banner-text {
+    margin-top: 275px;
+    margin-left: 120px;
+    margin-bottom: 70px;
+}
+
+.text-wht{
+   color: #fff;
+}
+
+/* Media Queries */
+
+@media(max-width:768px) {
+  .banner-text {
+    margin-top: 3px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+	}
 }
