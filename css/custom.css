@@ -24,6 +24,10 @@ ul{
 	padding-top: 200px;
 }
 
+#bot-row-pad {
+	padding: 40px;
+}
+
 /* Classes */
 
 .navbar {
@@ -89,6 +93,21 @@ ul{
 }
 
 .green {
+	color: #00bf62;
+}
+
+.btn.outer {
+	background: none;
+	padding: 12px 45px;
+}
+
+.btn-primary:hover {
+	background-color: #00bf62 !important;
+	color: #fff !important;
+}
+
+.btn-primary.outer {
+	border: 2px solid #00bf62;
 	color: #00bf62;
 }
 

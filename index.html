@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <!-- Metadata -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -85,28 +87,110 @@
 		<div class="container-fluid">
 			<div class="row bg-blue" id="prod-border">
 				<div class="col-md-6 no-pad">
-					<img src="resources/product-image.jpg" class="img-fluid">
+					<img src="resources/product-image.jpg" alt="products" class="img-fluid">
 				</div>
 				<div class="col-md-6">
 					<div class="push text-wht">
-						<h1 class="icons">
-							<i class="fa fa-television green"></i>
-							<i class="fa fa-certificate"></i>
-							<i class="fa fa-user-circle-o"></i>
-						</h1>
+						<span class="icons">
+							<i class="fa fa-television fa-2x green"></i>
+							<i class="fa fa-certificate fa-2x"></i>
+							<i class="fa fa-user-circle-o fa-2x"></i>
+						</span>
 					<h1>Multi useful components</h1>
 					<p id="main-text-light">Start up Design Framework contains components and complex blocks which can easily be integrated into almost any design. All of these components are made in the same style.</p>
 					<br/>
-					<button class = "btn btn-lg btn-primary outline" data-toggle="modal" data-target="#myModal">Try it now </button>
+					<button class="btn btn-lg btn-primary outer" data-toggle="modal" data-target="#tryModal">Try it now</button>
 					<br/><br/>
 					</div>  
 				</div>
 			</div>
 		</div>
 	</section>
+	<footer>
+	<div class="container-fluid">
+		<div class="row" id="bot-row-pad">
+			<div class="col-md-3">
+				<h3 align="center">Startup</h3>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-4">
+					   <ul>
+						 <h4>About</h4>
+						 <li class="text-muted">About Us </li>
+						 <li class="text-muted">Blog </li>
+						 <li class="text-muted">Team </li>
+						 <li class="text-muted">Career </li>
+						 <li class="text-muted">Contact </li>
+					  </ul>
+					</div>
+					<div class="col-md-4">
+						<ul> 
+						 <h4>Work</h4>
+						 <li class="text-muted">Our Portfolio </li>
+						 <li class="text-muted">Latest Work </li>
+						 <li class="text-muted">Brands </li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+					   <ul>
+						 <h4>Stuff</h4>
+						 <li class="text-muted">Privacy </li>
+						 <li class="text-muted">Terms </li>
+						 <li class="text-muted">Advertise </li>                 
+					   </ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<h4>Subscribe </h4>
+				<form method="POST" action="">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Email" name="email2" aria-label="Email">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit" id="sub_email" aria-label="Email">
+								<i class="fa fa-chevron-right text-wht"></i>
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</footer>
+	<!-- Modal -->
+	<div class="modal fade" id="tryModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="ModalLabel">Try It Now</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+				<div class="modal-body">
+				<form name="modalForm" id="modalForm" method="get">
+				  <input class="form-control" type="text" placeholder="Firstname" id="firstname" aria-label="First Name" /><br/>
+				  <input class="form-control" type="text" placeholder="Lastname" id="lastname" aria-label="Last Name" /><br/>
+				  <input class="form-control" type="email" placeholder="Email" name="email" id="email" aria-label="Email Address" /><br />
+				  <input class="form-control" type="text" placeholder="Phone" name="phone" id="phone" aria-label="Phone" /><br /><br /><br /><br />
+				  <input class="form-control" type="submit" name="submit" aria-label="Submit">
+				</form>
+			    </div>
+		  </div>
+		  <div class="modal-footer">
+		  </div>
+		</div>
+	  </div>
+	</div>
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
